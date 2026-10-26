@@ -1,5 +1,10 @@
 # Quantitative Research Portfolio
 
+## Start here
+
+1. [V&D Cloud](https://github.com/MJNolan37/vd-cloud) — the most complete evidence path: question, tests, negative result, and Atlas.
+2. [Project Parallax](https://github.com/MJNolan37/Project-Parallax) — research judgment and staged execution: coverage gate, preregistration, and an audit finding turned into a regression test.
+
 A curated collection of independent quantitative research exploring financial markets, portfolio analytics, statistical validation, and decision-making under uncertainty.
 
 This repository serves as the public entry point to my research portfolio. It highlights selected projects that demonstrate quantitative reasoning, software development, and rigorous research methodology. Each featured project emphasizes reproducibility, transparent assumptions, and careful validation over attractive conclusions.
