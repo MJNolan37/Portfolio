@@ -24,7 +24,7 @@ This repository serves as the public entry point to my research portfolio. It hi
 
 The project asks how the same portfolio outcome may be interpreted differently through dispersion and correlation, variance decomposition, portfolio attribution, factor models, and residual or security-specific effects.
 
-Phase 0 literature reconnaissance is complete. Phase 1 is currently focused on historical replication and data-feasibility work, including validation of a public-data market / industry / firm variance decomposition. Empirical testing of the primary Parallax hypotheses has **not** yet begun.
+Phase 1's public-data market / industry / firm variance decomposition is complete for 2010–2024, with 24 known-answer validation cases. The sample projects current S&P 500 members backward: large caps only, with survivorship bias of unknown direction and magnitude. Phase 2's [frozen preregistration](https://github.com/MJNolan37/Project-Parallax/blob/main/docs/phase2_preregistration_v1.0.md) and synthetic implementation validation are disclosed; empirical hypothesis testing remains gated and has **not** begun. The existing post-2001 benchmark is [Campbell et al. (2022)](https://www.nber.org/system/files/working_papers/w29916/w29916.pdf).
 
 The research emphasizes:
 
