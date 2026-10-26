@@ -56,7 +56,7 @@ The research emphasizes:
 - transparent reporting of limitations
 - reproducible analysis using public market data
 
-The project intentionally documents both successful findings and hypotheses that did **not** survive validation: of 13 rigorously tested candidate regimes (HAC/Newey-West inference, random-label permutation testing, simple-baseline challenges, and a chronological out-of-sample holdout), only one cleared both robustness bars — a result consistent with pure chance under multiple-comparison correction.
+The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) reports exploratory threshold crossings, not validated findings. No selection or multiplicity correction was applied, and the later period was retrospective, not an untouched holdout.
 
 **[View the repository →](https://github.com/MJNolan37/vd-cloud)**
 
