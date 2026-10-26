@@ -1,13 +1,15 @@
 # The Council  
-*A Framework for Strategic Planning, Internal Dialogue, and Decision Design*
+*A concept for strategic planning, internal dialogue, and decision design*
+
+**Status:** Concept and private-implementation description. The roles and workflows below are design ideas, not tested software or demonstrated effectiveness.
 
 ---
 
 ## Overview
 
-The Council is a conceptual and practical framework for organizing thought, clarifying intent, and guiding action across complex or ambiguous domains. Inspired by role-based decision theory and systems thinking, it models internal perspectives as structured cognitive agents—each with a defined function and domain of expertise.
+The Council is a conceptual framework for organizing thought, clarifying intent, and guiding action across complex or ambiguous domains. Inspired by role-based decision theory and systems thinking, it models internal perspectives as structured cognitive agents—each with a defined function and domain of expertise.
 
-The framework is used to improve personal clarity, simulate multidimensional strategy sessions, and prototype executive alignment in solo or team settings.
+The proposed uses are to support personal clarity, simulate strategy sessions, and explore alignment in solo or team settings; effectiveness has not been established here.
 
 ---
 
@@ -66,5 +68,5 @@ The framework can be implemented in multiple formats:
 
 ## Rationale
 
-Modern decision-making often suffers from blurred priorities, context collapse, and emotional overload. By creating structured internal “seats,” this model offers a repeatable approach to **thinking clearly under complexity**. It is as applicable to a single person managing multiple tensions as it is to a team needing alignment across disciplines.
+Modern decision-making often suffers from blurred priorities, context collapse, and emotional overload. By creating structured internal “seats,” this model proposes a structured approach to **thinking under complexity**. Its potential use by individuals or teams is a design rationale, not a tested result.
 

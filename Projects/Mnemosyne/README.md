@@ -1,13 +1,15 @@
 # Mnemosyne  
-*An Agentic Framework for Integrated Research and Knowledge Augmentation*
+*A concept for integrated research and knowledge augmentation*
+
+**Status:** Concept and private-implementation description. This page describes intended workflows and architecture; it does not publish tested software or validation results.
 
 ---
 
 ## Overview
 
-Mnemosyne is an evolving system designed to connect structured personal notetaking with AI-driven insight retrieval. Built on the principles of agentic architecture, it establishes a bridge between **human-curated notes** and **language model-based analysis**, enabling more dynamic, recursive, and context-aware research workflows.
+Mnemosyne is a concept designed to connect structured personal notetaking with AI-driven insight retrieval. Its proposed architecture would establish a bridge between **human-curated notes** and **language model-based analysis**, to support dynamic, recursive, and context-aware research workflows.
 
-The framework uses Obsidian for local, markdown-based note capture, and leverages API-based interactions with GPT to enrich, retrieve, and synthesize information on demand.
+The design pairs Obsidian for local, markdown-based note capture, with proposed API-based interactions with GPT to enrich, retrieve, and synthesize information on demand. These are design descriptions, not demonstrated capabilities.
 
 ---
 
@@ -41,3 +43,5 @@ The framework uses Obsidian for local, markdown-based note capture, and leverage
         Query Layer (Python/API) →
           GPT Response/Insight →
             Vault Enrichment or Export
+
+  ```
