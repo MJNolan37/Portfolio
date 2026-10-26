@@ -85,7 +85,7 @@ It provides a visual framework for exploring market-state diagnostics through da
 
 The project focuses on making quantitative research easier to interpret while preserving methodological transparency. Zone labels are explicitly provisional and rule-based — a monitoring instrument, not a trading signal.
 
-**[Open the live dashboard →](https://mjnolan37.github.io/vd-cloud/atlas/)** · **[View the notebook →](https://github.com/MJNolan37/vd-cloud/tree/main/atlas)**
+**[Open the live dashboard →](https://mjnolan37.github.io/vd-cloud/)** · **[View the notebook →](https://github.com/MJNolan37/vd-cloud/tree/main/atlas)**
 
 ---
 
