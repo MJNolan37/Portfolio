@@ -4,6 +4,7 @@
 
 1. [V&D Cloud](https://github.com/MJNolan37/vd-cloud) — the most complete evidence path: question, tests, negative result, and Atlas.
 2. [Project Parallax](https://github.com/MJNolan37/Project-Parallax) — research judgment and staged execution: coverage gate, preregistration, and an audit finding turned into a regression test.
+3. [Options Positioning Research](https://github.com/MJNolan37/options-positioning-research) — synthetic-chain engineering with explicitly scoped validation and gap-aware descriptive charts.
 
 A curated collection of independent quantitative research exploring financial markets, portfolio analytics, statistical validation, and decision-making under uncertainty.
 
@@ -90,7 +91,7 @@ The project focuses on making quantitative research easier to interpret while pr
 
 ## 🎯 Options Positioning Research
 
-A clean-room study of longitudinal option-chain structure: a documented schema, wide-to-long contract normalization, eight engineered positioning/liquidity features, cumulative open-interest terrain, and gap-aware longitudinal charting — validated with a 12-check suite covering both data integrity and the synthetic generator's own shape rules.
+A study of synthetic option-chain structure: a documented schema, wide-to-long contract normalization, eight engineered positioning/liquidity features, cumulative open-interest terrain, and gap-aware longitudinal charting. The [named saved single-snapshot report](https://github.com/MJNolan37/options-positioning-research/blob/main/results/published_check_summary.json) records 10 pass, 2 informational, 0 fail on 2,090 contracts dated 2026-07-20. The 65-date series has descriptive analysis, but no published full-series 12-check report.
 
 Deliberately stops before machine learning. The contribution is engineering, representation, and validation — not prediction, sentiment inference, or trading claims. All option-chain values are synthetic except the underlying's real daily price path.
 
