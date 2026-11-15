@@ -192,3 +192,7 @@ Every published project aims to demonstrate:
 ## Contact
 
 If you'd like to discuss quantitative research, portfolio analytics, or financial technology, feel free to connect through GitHub or LinkedIn.
+
+## License
+
+Copyright © 2026 Matthew Nolan (MJNolan37). Except where otherwise noted, the original text and diagrams in this repository are licensed under [CC BY 4.0](LICENSE). Linked repositories, external material and third-party assets retain their own licenses and terms.
