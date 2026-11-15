@@ -1,10 +1,14 @@
 # Quantitative Research Portfolio
 
+[GitHub profile](https://github.com/MJNolan37) / Portfolio
+
 ## Start here
 
 1. [V&D Cloud](https://github.com/MJNolan37/vd-cloud) — the most complete evidence path: question, tests, negative result, and Atlas.
 2. [Project Parallax](https://github.com/MJNolan37/Project-Parallax) — research judgment and staged execution: coverage gate, preregistration, and an audit finding turned into a regression test.
 3. [Options Positioning Research](https://github.com/MJNolan37/options-positioning-research) — synthetic-chain engineering with explicitly scoped validation and gap-aware descriptive charts.
+
+**How I work:** [AI Research Playbook](https://github.com/MJNolan37/ai-research-playbook) — planning, evidence checks, decisions and reusable templates.
 
 A curated collection of independent quantitative research exploring financial markets, portfolio analytics, statistical validation, and decision-making under uncertainty.
 
@@ -16,9 +20,49 @@ This repository serves as the public entry point to my research portfolio. It hi
 
 ---
 
-# Featured Research
+## Featured Research
 
-## 🔭 Project Parallax
+### 📈 V&D Cloud
+
+**Volatility & Dispersion Cloud** is a market-state diagnostic research project inspired by Ichimoku-style regime mapping.
+
+Instead of applying cloud analysis directly to price, the project investigates whether a synthetic market opportunity signal constructed from volatility and dispersion can provide useful descriptive information about market environments.
+
+The research emphasizes:
+
+- hypothesis-driven quantitative research
+- statistical validation using multiple robustness checks
+- transparent reporting of limitations
+- reproducible analysis using public market data
+
+The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) reports exploratory threshold crossings, not validated findings. No selection or multiplicity correction was applied, and the later period was retrospective, not an untouched holdout.
+
+**[View the repository →](https://github.com/MJNolan37/vd-cloud)**
+
+**Technologies**
+
+- Python
+- Pandas
+- NumPy
+- Statsmodels
+- Plotly
+- Jupyter Notebook
+
+---
+
+#### Atlas Observatory — V&D dashboard
+
+Atlas Observatory extends the V&D research into an interactive visualization environment.
+
+It provides a visual framework for exploring market-state diagnostics through dashboards that combine volatility, dispersion, and derived market-state classifications.
+
+The project focuses on making quantitative research easier to interpret while preserving methodological transparency. Zone labels are explicitly provisional and rule-based — a monitoring instrument, not a trading signal.
+
+**[Open the live dashboard →](https://mjnolan37.github.io/vd-cloud/)** · **[View the notebook →](https://github.com/MJNolan37/vd-cloud/tree/main/atlas)**
+
+---
+
+### 🔭 Project Parallax
 
 **Project Parallax — Equity Dispersion & Attribution** is an active research project examining how explanations of equity returns change across analytical lenses.
 
@@ -49,47 +93,7 @@ The research emphasizes:
 
 ---
 
-## 📈 V&D Cloud
-
-**Volatility & Dispersion Cloud** is a market-state diagnostic research project inspired by Ichimoku-style regime mapping.
-
-Instead of applying cloud analysis directly to price, the project investigates whether a synthetic market opportunity signal constructed from volatility and dispersion can provide useful descriptive information about market environments.
-
-The research emphasizes:
-
-- hypothesis-driven quantitative research
-- statistical validation using multiple robustness checks
-- transparent reporting of limitations
-- reproducible analysis using public market data
-
-The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) reports exploratory threshold crossings, not validated findings. No selection or multiplicity correction was applied, and the later period was retrospective, not an untouched holdout.
-
-**[View the repository →](https://github.com/MJNolan37/vd-cloud)**
-
-**Technologies**
-
-- Python
-- Pandas
-- NumPy
-- Statsmodels
-- Plotly
-- Jupyter Notebook
-
----
-
-## 🌍 Atlas Observatory
-
-Atlas Observatory extends the V&D research into an interactive visualization environment.
-
-It provides a visual framework for exploring market-state diagnostics through dashboards that combine volatility, dispersion, and derived market-state classifications.
-
-The project focuses on making quantitative research easier to interpret while preserving methodological transparency. Zone labels are explicitly provisional and rule-based — a monitoring instrument, not a trading signal.
-
-**[Open the live dashboard →](https://mjnolan37.github.io/vd-cloud/)** · **[View the notebook →](https://github.com/MJNolan37/vd-cloud/tree/main/atlas)**
-
----
-
-## 🎯 Options Positioning Research
+### 🎯 Options Positioning Research
 
 A study of synthetic option-chain structure: a documented schema, wide-to-long contract normalization, eight engineered positioning/liquidity features, cumulative open-interest terrain, and gap-aware longitudinal charting. The [named saved single-snapshot report](https://github.com/MJNolan37/options-positioning-research/blob/main/results/published_check_summary.json) records 10 pass, 2 informational, 0 fail on 2,090 contracts dated 2026-07-20. The 65-date series has descriptive analysis, but no published full-series 12-check report.
 
@@ -107,7 +111,17 @@ Deliberately stops before machine learning. The contribution is engineering, rep
 
 ---
 
-# Research Interests
+## Research Workflow
+
+### AI Research Playbook
+
+A practical account of how I direct AI-assisted research: framing the work, checking claims, retaining decision authority and recording what each build teaches me. The main case follows Parallax's unresolved calibration gate; reusable templates cover project charters, handoffs and decision records.
+
+**[Read the playbook →](https://github.com/MJNolan37/ai-research-playbook)** · **[Browse the templates →](https://github.com/MJNolan37/ai-research-playbook/tree/main/templates)**
+
+---
+
+## Research Interests
 
 Current areas of focus include:
 
@@ -122,7 +136,7 @@ Current areas of focus include:
 
 ---
 
-# Technical Stack
+## Technical Stack
 
 ### Languages
 
@@ -148,7 +162,7 @@ Current areas of focus include:
 
 ---
 
-# Repository Roadmap
+## Repository Roadmap
 
 The portfolio will continue to expand as projects complete governance review and become suitable for public release.
 
@@ -162,7 +176,7 @@ Projects remain private until they meet documentation, reproducibility, and data
 
 ---
 
-# Research Standards
+## Research Standards
 
 Every published project aims to demonstrate:
 
@@ -175,6 +189,6 @@ Every published project aims to demonstrate:
 
 ---
 
-# Contact
+## Contact
 
 If you'd like to discuss quantitative research, portfolio analytics, or financial technology, feel free to connect through GitHub or LinkedIn.
