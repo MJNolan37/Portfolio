@@ -2,196 +2,58 @@
 
 [GitHub profile](https://github.com/MJNolan37) / Portfolio
 
-## Start here
+Research pipelines, statistical validation and interactive tools built with public or synthetic data. This index provides the evidence and scope behind the short project summaries on my profile.
 
-1. [V&D Cloud](https://github.com/MJNolan37/vd-cloud) — the most complete evidence path: question, tests, negative result, and Atlas.
-2. [Project Parallax](https://github.com/MJNolan37/Project-Parallax) — research judgment and staged execution: coverage gate, preregistration, and an audit finding turned into a regression test.
-3. [Options Positioning Research](https://github.com/MJNolan37/options-positioning-research) — synthetic-chain engineering with explicitly scoped validation and gap-aware descriptive charts.
+## Project Index
 
-**How I work:** [AI Research Playbook](https://github.com/MJNolan37/ai-research-playbook) — planning, evidence checks, decisions and reusable templates.
+| Project | What I built | Inspect |
+|---|---|---|
+| V&D Cloud and Atlas | Volatility-and-dispersion research pipeline and a descriptive monitoring dashboard | [Research](https://github.com/MJNolan37/vd-cloud) · [Dashboard](https://mjnolan37.github.io/vd-cloud/) |
+| Project Parallax | Market / industry / firm variance decomposition and staged research validation | [Repository](https://github.com/MJNolan37/Project-Parallax) |
+| Options Positioning Research | Synthetic option-chain pipeline, engineered features and descriptive charts | [Repository](https://github.com/MJNolan37/options-positioning-research) |
+| AI Research Playbook | Documented research workflow and reusable templates | [Playbook](https://github.com/MJNolan37/ai-research-playbook) |
 
-A curated collection of independent quantitative research exploring financial markets, portfolio analytics, statistical validation, and decision-making under uncertainty.
+## V&D Cloud and Atlas
 
-This repository serves as the public entry point to my research portfolio. It highlights selected projects that demonstrate quantitative reasoning, software development, and rigorous research methodology. Each featured project emphasizes reproducibility, transparent assumptions, and careful validation over attractive conclusions.
+Built an Ichimoku-inspired regime framework using volatility and cross-sectional dispersion, first for QQQ and then for a developed-market ETF panel. The work includes data preparation, baseline comparisons, HAC/Newey-West inference, permutation diagnostics and retrospective chronological stability analysis.
 
-> **Research Philosophy**
->
-> I build research to challenge ideas rather than confirm them. Well-documented negative results are valuable when they meaningfully reduce uncertainty.
+**Result and scope.** The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) separates exploratory threshold crossings from validated findings. No selection or multiplicity correction was applied; the later period was retrospective, not an untouched holdout.
 
----
+### Atlas: the descriptive dashboard
 
-## Featured Research
+Atlas turns the descriptive learning into an interactive TQQQ monitoring view, with QQQ as a return-alignment benchmark. It displays a saved, manually regenerated daily-data snapshot rather than live quotes. Its provisional state labels are descriptive, with no validated forecasting claim.
 
-### 📈 V&D Cloud
+[Research and reproduction instructions](https://github.com/MJNolan37/vd-cloud) · [Open Atlas](https://mjnolan37.github.io/vd-cloud/) · [Dashboard calculations](https://github.com/MJNolan37/vd-cloud/tree/main/atlas)
 
-**Volatility & Dispersion Cloud** is a market-state diagnostic research project inspired by Ichimoku-style regime mapping.
+## Project Parallax
 
-Instead of applying cloud analysis directly to price, the project investigates whether a synthetic market opportunity signal constructed from volatility and dispersion can provide useful descriptive information about market environments.
+Rebuilt a published three-component equity variance decomposition on public data for 2010–2024. Completed Phase 1 measurement work with 24 known-answer validation cases, documented coverage and missing-data decisions, and disclosed a frozen Phase 2 specification with synthetic implementation validation.
 
-The research emphasizes:
+**Sample and interpretation.** The sample projects current S&P 500 members backward. It covers large caps and carries survivorship bias whose direction and magnitude have not been established for this dataset. The [Campbell et al. (2022) paper](https://www.nber.org/system/files/working_papers/w29916/w29916.pdf) provides the post-2001 comparison benchmark.
 
-- hypothesis-driven quantitative research
-- statistical validation using multiple robustness checks
-- transparent reporting of limitations
-- reproducible analysis using public market data
+**Next-stage boundary.** At the [October 25, 2026 status snapshot](https://github.com/MJNolan37/Project-Parallax/blob/38411cc050696efde85d7702c9a11b9ad985c693/docs/A1_STATUS.md), the H1 critical value remained unresolved and no empirical H1/H2 analysis had been run. Implementation validation and the research hypotheses are separate milestones.
 
-The revised analysis did not establish predictive validity or a consistent advantage over simpler baselines. The [canonical evidence table](https://github.com/MJNolan37/vd-cloud#verified-revised-results) reports exploratory threshold crossings, not validated findings. No selection or multiplicity correction was applied, and the later period was retrospective, not an untouched holdout.
+[Repository and methodology](https://github.com/MJNolan37/Project-Parallax) · [Validation-gate case study](https://github.com/MJNolan37/ai-research-playbook/blob/main/case-studies/parallax-validation-gate.md)
 
-**[View the repository →](https://github.com/MJNolan37/vd-cloud)**
+## Options Positioning Research
 
-**Technologies**
+Built a synthetic option-chain research testbed: a documented schema, wide-to-long contract normalization, eight positioning and liquidity features, cumulative open-interest terrain, automated validation and charts across a 65-date series.
 
-- Python
-- Pandas
-- NumPy
-- Statsmodels
-- Plotly
-- Jupyter Notebook
+**Validation and scope.** The [saved single-snapshot check report](https://github.com/MJNolan37/options-positioning-research/blob/main/results/published_check_summary.json) covers 2,090 contracts dated July 20, 2026, with 10 checks passing, two informational and none failing. That report covers one snapshot; the longer series has descriptive analysis. All option-chain values are synthetic, apart from the underlying's real daily price path. The project demonstrates engineering and representation without establishing predictive or trading performance.
 
----
-
-#### Atlas Observatory — V&D dashboard
-
-Atlas Observatory extends the V&D research into an interactive visualization environment.
-
-It provides a visual framework for exploring market-state diagnostics through dashboards that combine volatility, dispersion, and derived market-state classifications.
-
-The project focuses on making quantitative research easier to interpret while preserving methodological transparency. Zone labels are explicitly provisional and rule-based — a monitoring instrument, not a trading signal.
-
-**[Open the live dashboard →](https://mjnolan37.github.io/vd-cloud/)** · **[View the notebook →](https://github.com/MJNolan37/vd-cloud/tree/main/atlas)**
-
----
-
-### 🔭 Project Parallax
-
-**Project Parallax — Equity Dispersion & Attribution** is an active research project examining how explanations of equity returns change across analytical lenses.
-
-The project asks how the same portfolio outcome may be interpreted differently through dispersion and correlation, variance decomposition, portfolio attribution, factor models, and residual or security-specific effects.
-
-Phase 1's public-data market / industry / firm variance decomposition is complete for 2010–2024, with 24 known-answer validation cases. The sample projects current S&P 500 members backward: large caps only, with survivorship bias of unknown direction and magnitude. Phase 2's [frozen preregistration](https://github.com/MJNolan37/Project-Parallax/blob/main/docs/phase2_preregistration_v1.0.md) and synthetic implementation validation are disclosed; empirical hypothesis testing remains gated and has **not** begun. The existing post-2001 benchmark is [Campbell et al. (2022)](https://www.nber.org/system/files/working_papers/w29916/w29916.pdf).
-
-The research emphasizes:
-
-- disciplined hypothesis and decision governance
-- historical replication before original hypothesis testing
-- explicit treatment of survivorship and data-quality limitations
-- comparison across attribution and factor-model perspectives
-- reproducible public-data research
-- clear separation between methodological validation and empirical evidence
-
-**[View the repository →](https://github.com/MJNolan37/Project-Parallax)**
-
-**Technologies**
-
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-- yfinance
-- SEC EDGAR
-- Kenneth French Data Library
-
----
-
-### 🎯 Options Positioning Research
-
-A study of synthetic option-chain structure: a documented schema, wide-to-long contract normalization, eight engineered positioning/liquidity features, cumulative open-interest terrain, and gap-aware longitudinal charting. The [named saved single-snapshot report](https://github.com/MJNolan37/options-positioning-research/blob/main/results/published_check_summary.json) records 10 pass, 2 informational, 0 fail on 2,090 contracts dated 2026-07-20. The 65-date series has descriptive analysis, but no published full-series 12-check report.
-
-Deliberately stops before machine learning. The contribution is engineering, representation, and validation — not prediction, sentiment inference, or trading claims. All option-chain values are synthetic except the underlying's real daily price path.
-
-**[View the repository →](https://github.com/MJNolan37/options-positioning-research)**
-
-**Technologies**
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
----
+[Repository, pipeline and charts](https://github.com/MJNolan37/options-positioning-research)
 
 ## Research Workflow
 
-### AI Research Playbook
+[AI Research Playbook](https://github.com/MJNolan37/ai-research-playbook) documents how I frame AI-assisted work, check claims, retain decision authority and record what each build teaches me. Its main case follows Parallax's calibration gate at the documented snapshot.
 
-A practical account of how I direct AI-assisted research: framing the work, checking claims, retaining decision authority and recording what each build teaches me. The main case follows Parallax's unresolved calibration gate; reusable templates cover project charters, handoffs and decision records.
+[Read the playbook](https://github.com/MJNolan37/ai-research-playbook) · [Reusable templates](https://github.com/MJNolan37/ai-research-playbook/tree/main/templates)
 
-**[Read the playbook →](https://github.com/MJNolan37/ai-research-playbook)** · **[Browse the templates →](https://github.com/MJNolan37/ai-research-playbook/tree/main/templates)**
+## Tools Used in These Projects
 
----
+Python · pandas · NumPy · statsmodels · Plotly · Matplotlib · Jupyter · Git
 
-## Research Interests
-
-Current areas of focus include:
-
-- Market-state diagnostics
-- Portfolio attribution and risk
-- Statistical validation
-- Options analytics
-- Quantitative finance
-- Risk modeling
-- Machine learning for finance
-- Research engineering
-
----
-
-## Technical Stack
-
-### Languages
-
-- Python
-- R
-- SQL
-- VBA
-
-### Libraries
-
-- Pandas
-- NumPy
-- Statsmodels
-- Plotly
-- Matplotlib
-
-### Tools
-
-- Git
-- Jupyter
-- Obsidian
-- Notion
-
----
-
-## Repository Roadmap
-
-The portfolio will continue to expand as projects complete governance review and become suitable for public release.
-
-Planned additions include:
-
-- Statistical validation utilities
-- Macro liquidity forecasting
-- Research engineering tools
-
-Projects remain private until they meet documentation, reproducibility, and data-governance standards.
-
----
-
-## Research Standards
-
-Every published project aims to demonstrate:
-
-- Clear research questions
-- Transparent methodology
-- Reproducible implementation
-- Honest discussion of limitations
-- Appropriate validation
-- Separation of public and private research artifacts
-
----
-
-## Contact
-
-If you'd like to discuss quantitative research, portfolio analytics, or financial technology, feel free to connect through GitHub or LinkedIn.
+AI tools assist implementation and review. The research questions, methodological decisions and final interpretations are mine.
 
 ## License
 
